@@ -156,3 +156,4 @@ class DBManager:
 
         connection.commit()
         connection.close()
+
