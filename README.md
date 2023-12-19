@@ -3,6 +3,13 @@
 -выполнить pip install -r requirements.txt ;
 
 -указать данные для доступа к базе данных в файле database.ini.
+содержимое database.ini:
+[postgresql]
+host=localhost
+user=postgres
+password=Ваш пароль
+port=5432
+
 
 Проект для получения информации из hh и внесение данных в таблицы pgAdmin. Если нужны другие компании, их список можно изменить в файле DBManager.py => id_companies. 
 
